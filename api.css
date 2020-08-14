@@ -1,0 +1,141 @@
+body {
+    font-family: fantasy;
+    padding: 10em 0 10em 10em;
+    background-color: slategrey;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    display: block;
+}
+
+#console {
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 0em;
+    left: -100px;
+}
+
+.oldSchoolGB {
+    height: 80vh;
+    width: 90vw;
+    position: relative;
+    top: -5em;
+}
+
+#boxOne {
+    height: 60vh;
+    width: 52vw;
+    position: relative;
+    top: -30em;
+    left: 0em;
+}
+
+#battleStadium {
+    height: 92%;
+    width: 95%;
+    position: relative;
+    top: -6.3em;
+    left: 18em;
+    border-radius: 5px;
+}
+
+#challengerBox {
+    display: block;
+}
+
+#challengerBoxTwo {
+    position: relative;
+    top: -40em;
+    left: 35em;
+}
+
+#formChallengerInfo {
+    top: 0em;
+    
+}
+
+#formChallenger {
+    border: solid 2px black;
+    background-color: darkmagenta;
+    border-radius: 25px;
+    top: 35em;
+    text-align: center;
+    height: 10em;
+    width: 20em;
+    left: 54em;
+}
+
+#lastChallenger{
+    position: relative;
+}
+
+#challengerSection {
+    right: -6em;
+    top: 30em;
+    position: relative;
+}
+
+#formPlayer {
+  left: -35em;
+  top: 3em;
+  text-align: center;
+  background-color: darkmagenta;
+  border-radius: 25px;
+  border: solid 2px black;
+  position: absolute;
+  width: 20em;
+  height: 10em;
+}
+
+.playerEntry {
+    position: relative;
+    color: black;
+    left: 0em;
+    display: inline-block;
+    top: -1em;
+}
+
+.myPokemon {
+    height: 18em;
+    width: 18em;
+    position: relative;
+    top: 6em;
+    left: -4em;
+}
+
+#imgChallenger {
+    height: 10em;
+    width: 15em;
+    position: relative;
+    top: 35em;
+    left: 54em;
+}
+
+#headingChallenger {
+    color: white;
+    position: relative;
+    top: 25em;
+    left: 25em;
+    padding: 0px;
+}
+
+.movesChallenger {
+    overflow-wrap: normal;
+    border: solid black 2px;
+    background-color: darkolivegreen;
+    text-align: center;
+    right: -11em;
+    top: -42em;
+    position: relative;
+    color: white;
+    width: 4em;
+    height: 4em;
+}

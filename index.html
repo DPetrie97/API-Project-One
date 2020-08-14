@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Project One</title>
+    <link rel="stylesheet" href="api.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div id="console">
+            <img class="oldSchoolGB" src="../API-One/api.assets/game-boy-advance-png-transparent.png" alt="nintendo image">
+          <div id="boxOne">
+            <img alt="battle area" id="battleStadium" src="../API-One/api.assets/PBC.png">
+        <div id="challengerBox">
+         <div id="challengerBoxTwo">
+        <div id="formChallengerInfo">
+             <form id="formChallenger">
+                <h1 style="color: black;" class="challengerSearchEngine">  Random Pokemon</h1>
+                    <p class="entryChallenger"> Please choose a number between 1 and 807 <input type="text" id="searchChallenger" required></p>
+                    <p class="entry">
+                      <button class="submit" id="submitChallenger">
+                        Search Pokemon
+                      </button>
+                    </p>
+                  </form>
+    <div id="lastChallenger">
+        <section id="challengerSection"></section>
+  
+        <div id="form">
+             <form id="formPlayer">
+                <h1 style="color: black;" class="playerSearchEngine"> Choose Your Pokemon</h1>
+            <p class="playerEntry">Please choose a Pokemon by name: <input type="text" id="searchPlayer" required></p>
+            <p class="entryPlayer">
+             <button class="submit" id="submitPlayer"> Search Pokemon</button></p>
+                 </form>
+    <div id="lastBox">
+            <section id="playerSection"></section>
+             </div>
+           </div>
+          </div>
+          </div>
+         </div>
+        </div>
+        </div>
+         </div>
+      </div>
     <script src="api.js"></script>
 </body>
 </html>
