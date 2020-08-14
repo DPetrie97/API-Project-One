@@ -115,15 +115,15 @@ div {
     height: 10em;
     width: 15em;
     position: relative;
-    top: 35em;
-    left: 54em;
+    top: -32em;
+    left: -7em;
 }
 
 #headingChallenger {
     color: white;
     position: relative;
-    top: 25em;
-    left: 25em;
+    top: -20em;
+    left: -3em;
     padding: 0px;
 }
 
@@ -132,8 +132,8 @@ div {
     border: solid black 2px;
     background-color: darkolivegreen;
     text-align: center;
-    right: -11em;
-    top: -42em;
+    right: 15em;
+    top: -32em;
     position: relative;
     color: white;
     width: 4em;

@@ -5,10 +5,10 @@ let url;
 // SEARCH FORM
 const searchChallenger = document.getElementById("searchChallenger");
 const searchFormChallenger = document.getElementById("formChallenger");
-const submitBtnChallenger = document.querySelector("submit")
+//const submitBtnChallenger = document.querySelector("submit")
 
 //Results Section
-const sectionChallenger = document.getElementById("sectionChallenger");
+const challengerSection = document.getElementById("challengerSection");
 
 searchFormChallenger.addEventListener("submit", fetchResultsChallenger);
 
@@ -28,8 +28,8 @@ function fetchResultsChallenger(e) {
 
 function displayResultsChallenger(json) {
     console.log("Display Results", json);
-    while (sectionChallenger.firstChild) {
-        sectionChallenger.removeChild(sectionChallenger.firstChild);
+    while (challengerSection.firstChild) {
+        challengerSection.removeChild(challengerSection.firstChild);
     }
     let pokemonChallenger = json;
 
@@ -65,13 +65,13 @@ function displayResultsChallenger(json) {
             spanChallenger.textContent += pokemonChallenger.moves[11].move.name + ", ";
             paraChallenger.appendChild(spanChallenger);
         }
-        clearFixChallenger.setAttribute("class", "clearfixChallenger");
+        clearFixChallenger.setAttribute("class", "clearFixChallenger");
 
         formChallenger.appendChild(headingChallenger);
-        formChallenger.appendChild(clearfixChallenger);
+        formChallenger.appendChild(clearFixChallenger);
         formChallenger.appendChild(imgChallenger);
         formChallenger.appendChild(paraChallenger);
-        sectionChallenger.appendChild(formChallenger);
+        challengerSection.appendChild(formChallenger);
     }
 }
 }
